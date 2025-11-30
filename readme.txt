@@ -1,22 +1,22 @@
-POCHITCHI (Rainmeter skin) — Temperature + Usage + RAM + Disk
+POCHITCHI (Rainmeter skin) —CPU  Temperature + Usage + RAM + Disk
 =============================================================
 
 This skin shows a system temperature readout (now using the CoreTemp plugin by default), a usage bar/line, RAM and Disk info, with a Pochitchi theme (customisable) and a click “shock” animation.
 
-QUICK START
+How to use!! ^___^
 -----------
 1) Install Rainmeter.
-2) Install Core Temp (optional) and/or the CoreTemp Rainmeter plugin. The skin now prefers the CoreTemp plugin for temperature. If CoreTemp/plugin are not present it will fall back gracefully (see Troubleshooting).
+2) Install Core Temp (optional) and/or the CoreTemp Rainmeter plugin. The skin now prefers the CoreTemp plugin for temperature. If CoreTemp/plugin are not present it will fall back (see Troubleshooting).
 3) Copy this folder into Documents\Rainmeter\Skins (or add it via Rainmeter Manage > Skins > Create new folder and paste files).
 4) Load the skin in Rainmeter (Manage > Skins > Pochitchi...).
 5) Edit settings in `Variables.inc` (preferred) or `Pochitchi.ini`, then refresh the skin.
 
-CORETEMP (recommended) — why and how
+CORETEMP (recommended) 
 ------------------------------------
 Why CoreTemp: CoreTemp is a lightweight, commonly-used source for CPU core temperatures on Windows. The included Rainmeter plugin (CoreTemp.dll) lets Rainmeter read Core Temp data directly.
 
 Install steps (minimum):
-- Option A (recommended): Install the Core Temp application (the official Core Temp app is commonly used alongside the plugin). Make sure the Core Temp app is running when Rainmeter is running.
+- Option A (recommended): Install the Core Temp application. Make sure the Core Temp app is running when Rainmeter is running.
 - Option B: If you only need the Rainmeter plugin, download the CoreTemp Rainmeter plugin (CoreTemp.dll) from the project's releases and place it in Rainmeter's `Plugins` folder.
 
 Recommended download (plugin):
@@ -91,3 +91,4 @@ TROUBLESHOOTING
 CREDITS
 -------
 - Uses the CoreTemp Rainmeter plugin (when installed) and Rainmeter core measures. Images live under `@Resources`.
+- Official potchichi tamagotchi character sprites
